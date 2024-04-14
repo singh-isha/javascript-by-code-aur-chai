@@ -26,3 +26,23 @@ let stringNumber = String(number)
  console.log(typeof stringNumber)*/
  //******************operations****************
  
+/*let value = 23
+let negvalue = -value 
+console.log(negvalue)*/
+//Arthematic operations 
+/*
+console.log( 2+2)
+console.log( 2-2)
+console.log( 2*2)
+console.log( 2%2)
+console.log( 2**2)->this is operator is for power like 2power2 is 4 , that's what am saying
+console.log( 2**5)
+
+*/
+
+
+
+
+
+
+
