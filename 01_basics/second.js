@@ -39,6 +39,20 @@ console.log( 2**2)->this is operator is for power like 2power2 is 4 , that's wha
 console.log( 2**5)
 
 */
+// you should never perform these types of comparisons by any how ,  this will create unnecessary hurdles and make the code a non- readable code as well as this will make it a unprofessional code so try not to use it as much as possible 
+/* console.log( null>0)
+console.log( null>=0)//true
+console.log( null <0)
+console.log( null<=0)//true
+console.log( null==0)
+console.log( null!=0)
+console.log( undefined >0)
+console.log( undefined >=0)
+console.log( undefined <0)
+console.log( undefined <=0)
+console.log( undefined ==0)
+console.log( undefined !=0) // true  */
+// the most valuable core value of any code is clean code and readability of code , this makes any code a more relaible code than most of codes ###
 
 
 
