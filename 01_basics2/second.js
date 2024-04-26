@@ -18,11 +18,15 @@ const array=[1,2,3,4,5]
  //console.log(array.findIndex(55));
  //console.log(array.);
  //console.log(array);
-const fruits=["apple","mango","orange", "pear"]
+/* const fruits=["apple","mango","orange", "pear"]
 const flowers=["rose","sunflower","daisy","lily"]
 fruits.push(flowers);
-  console.log(fruits)
+  console.log(fruits) */
   //console.log()
+  //accessing elements using index
+  
+
+
   
   
 
