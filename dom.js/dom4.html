@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom4 (last file on dom )</title>
+  </head>
+  <body>
+    <ul class="language">
+      <li>Javascript</li>
+    </ul>
+  </body>
+  <script>
+  // NORMAL WAY -->
+    //function addlanguage( langauage_name){
+    //const li = document.createElement('li');
+    //li.innerHTML = `${langauage_name}`
+    // document.querySelector('.language').appendChild(li)
+    //}
+   
+    // OPTIMISED WAY -->
+     function addlanguage(langauage_name) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(langauage_name));
+      document.querySelector('.language').appendChild(li);
+    }
+    addlanguage("python");
+    addlanguage("c++");
+    addlanguage("rust");
+    addlanguage("Go"); 
+    //edit
+     const  secondlanguage =document.querySelector("li:nth-child(2)")
+    //console.log(secondlanguage);
+ secondlanguage.innerHTML= "ruby"
+ const newli= document.createElement('li')
+ newli.textContent="ruby"
+ secondlanguage.replaceWith(newli)
+ //remove
+ const lastlanguage = document.querySelector('li:last-child')
+ lastlanguage.remove()
+
+  </script> 
+</html>
