@@ -23,6 +23,12 @@ let btstalent ={
 //btstalent.heyisha()
 // there is a property which helps in linking  two objects so that their property can be linked 
 
+
+//**************** I N H E R I T E N C E **************************
+ /* const user={
+   name :'Isha',
+   email: 'jaisinghisha.com',
+}
 const teacher ={
      makevideo :true,
 }
@@ -36,7 +42,31 @@ const teaching_support ={
  }
 teacher.__proto__= user
 //Modern Syntax
-object.setProt
+Object.setPrototypeOf(teaching_support, teacher)
+
+ */
+
+ 
+let anotherUserName ="keshav     "
+ String.prototype.trueLength = function(){
+  console.log(`${this}`);
+  //console.log(`${this.name}`);
+  console.log(` true length of string is: ${ this.trim().length}`);
+}
+
+anotherUserName.trueLength()
+ "         isha".trueLength()
+ "ice          berg".trueLength()// in btw spaces will counted as string
+
+
+
+
+
+
+
+
+
+
 
 
 
